@@ -1,0 +1,13 @@
+{
+    "require": {
+        "atk4/ui": "^1.1"
+    },
+    "autoload":{
+        "psr-0":{
+            "": ["lib/"]
+        }
+    },
+	"require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+	}
+}
