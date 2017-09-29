@@ -5,5 +5,5 @@ $app =new \atk4\ui\App('Registration');
 $app->initLayout('Centered');
 $button = $app->add('Button');
 $button->set('Apple');
-$button->icon = 'plus';
+$button->icon = 'shop';
 $button->link('https://www.apple.com');
