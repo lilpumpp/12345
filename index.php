@@ -8,6 +8,6 @@ $button->set('Apple');
 $button->icon = 'shop';
 $button->link('https://www.apple.com');
 $button = $app->add('Button');
-$button->set('Apple');
+$button->set('Samsung');
 $button->icon = 'plus';
 $button->link('https://www.samsung.com');
