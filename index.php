@@ -20,3 +20,4 @@ $button3->addClass("green");
 $button3->link('https://www.supremenewyork.com');
 $button4= $app->add(["Button" ,"Bape" , "iconRight"=>"right arrow"]);
 $button4->link('https://www.bapeonline.com');
+$button4->addClass("blue");
