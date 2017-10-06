@@ -5,7 +5,7 @@ $app =new \atk4\ui\App('Registration');
 $app->initLayout('Centered');
 $button1 = $app->add('Button');
 $button1->set('Apple');
-$button1->icon = 'shop';
+$button1->addClass("red");
 $button1->link('https://www.apple.com');
 $button2 = $app->add('Button');
 $button2->set('Samsung');
