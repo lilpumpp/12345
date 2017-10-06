@@ -4,7 +4,7 @@ echo 'nik';
 $app =new \atk4\ui\App('Shops');
 $app->initLayout('Centered');
 $button1 = $app->add('Button');
-$button->icon = "signal";
+$button1->icon = "signal";
 $button1->set('Apple');
 $button1->addClass("red");
 $button1->link('https://www.apple.com');
