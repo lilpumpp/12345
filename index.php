@@ -18,3 +18,4 @@ $button3->icon = "Signal";
 $button3->set('Asus');
 $button3->addClass("green");
 $button3->link('https://www.asus.com');
+$button3= $app-.(["Button" ,"Supremenewyork" , "iconRight"=>"right arrow"])
