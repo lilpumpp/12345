@@ -5,3 +5,4 @@ $app =new \atk4\ui\App('Shops');
 $app->initLayout('Centered');
 $label=$app->add('Label');
 $label->set('BOOM');
+$label->addClass('big purple');
