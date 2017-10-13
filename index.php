@@ -26,3 +26,7 @@ $bar=$app->add(["ui"=>"vertical buttons"]);
 $bar->add(["Button","Spotify","icon"=>"play"]);
 $bar->add(["Button","SoundCloud","icon"=>"pause"]);
 $bar->add(["Button","Shazam","icon"=>"shuffle"]);
+*/
+$button=$app->add("Button");
+$button->("Сlick");
+$button->link("15.php");
