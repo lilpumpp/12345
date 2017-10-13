@@ -2,6 +2,30 @@
 require 'vendor/autoload.php';
 $app =new \atk4\ui\App('Shops');
 $app->initLayout('Centered');
+
+$button=$app->add("Button");
+$button->set("Сlick");
+$button->link("15.php");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 $button1 = $app->add('Button');
 $button1->icon = "signal";
@@ -26,6 +50,3 @@ $bar->add(["Button","Spotify","icon"=>"play"]);
 $bar->add(["Button","SoundCloud","icon"=>"pause"]);
 $bar->add(["Button","Shazam","icon"=>"shuffle"]);
 */
-$button=$app->add("Button");
-$button->set("Сlick");
-$button->link("15.php");
