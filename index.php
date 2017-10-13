@@ -1,9 +1,9 @@
 <?php
 require 'vendor/autoload.php';
 echo 'nik';
-/*
 $app =new \atk4\ui\App('Shops');
 $app->initLayout('Centered');
+/*
 $button1 = $app->add('Button');
 $button1->icon = "signal";
 $button1->set('Apple');
