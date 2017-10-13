@@ -6,27 +6,6 @@ $app->initLayout('Centered');
 $button=$app->add("Button");
 $button->set("Сlick");
 $button->link("15.php");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 $button1 = $app->add('Button');
 $button1->icon = "signal";
 $button1->set('Apple');
@@ -49,4 +28,3 @@ $bar=$app->add(["ui"=>"vertical buttons"]);
 $bar->add(["Button","Spotify","icon"=>"play"]);
 $bar->add(["Button","SoundCloud","icon"=>"pause"]);
 $bar->add(["Button","Shazam","icon"=>"shuffle"]);
-*/
