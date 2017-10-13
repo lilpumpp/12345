@@ -1,6 +1,5 @@
 <?php
 require 'vendor/autoload.php';
-echo 'nik';
 $app =new \atk4\ui\App('Shops');
 $app->initLayout('Centered');
 /*
@@ -28,5 +27,5 @@ $bar->add(["Button","SoundCloud","icon"=>"pause"]);
 $bar->add(["Button","Shazam","icon"=>"shuffle"]);
 */
 $button=$app->add("Button");
-$button->("Сlick");
+$button->set("Сlick");
 $button->link("15.php");
