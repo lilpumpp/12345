@@ -10,7 +10,7 @@ $img='https://pbs.twimg.com/media/Cx7rFspXcAAkOP_.jpg' ;
 $icon=$app->add(['Image',$img]);
 $text=$app->add(['Text','here goes some text']);
 $text->addParagraph(':)');
-$a=3
+$a=3;
 if($a>0) {
 echo 'Verno';
 } else {
