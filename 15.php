@@ -12,7 +12,8 @@ $text=$app->add(['Text','here goes some text']);
 $text->addParagraph(':)');
 $a=3;
 if($a>0) {
-echo 'Verno';
+ $name='Verno';
 } else {
-echo 'Neverno';
+$name= 'Neverno';
 }
+$label=$app->add(['Label',$name]);
