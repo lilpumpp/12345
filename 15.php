@@ -9,4 +9,4 @@ $label1->addClass('big purple');
 $img='https://pbs.twimg.com/media/Cx7rFspXcAAkOP_.jpg' ;
 $icon=$app->add(['Image',$img]);
 $text=$app->add(['Text','here goes some text']);
-$text->addParagraph('some text');
+$text->addParagraph(':)');
