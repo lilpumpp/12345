@@ -10,8 +10,8 @@ $img='https://pbs.twimg.com/media/Cx7rFspXcAAkOP_.jpg' ;
 $icon=$app->add(['Image',$img]);
 $text=$app->add(['Text','here goes some text']);
 $text->addParagraph(':)');
-$a=3;
-if($a!=0) {
+$a='test';
+if($a=='test') {
  $name='Verno';
 } else {
 $name= 'Neverno';
@@ -19,7 +19,7 @@ $name= 'Neverno';
 $label=$app->add(['Label',$name]);
 
 $a=3;
-if($a=0) {
+if($a!=0) {
  $name='Verno';
 } else {
 $name= 'Neverno';
