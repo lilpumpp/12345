@@ -17,3 +17,51 @@ if($a!=0) {
 $name= 'Neverno';
 }
 $label=$app->add(['Label',$name]);
+
+$a=3;
+if($a=0) {
+ $name='Verno';
+} else {
+$name= 'Neverno';
+}
+$label=$app->add(['Label',$name]);
+
+$a=3;
+if($a<=0) {
+ $name='Verno';
+} else {
+$name= 'Neverno';
+}
+$label=$app->add(['Label',$name]);
+
+$a=3;
+if($a>=0) {
+ $name='Verno';
+} else {
+$name= 'Neverno';
+}
+$label=$app->add(['Label',$name]);
+
+$a=3;
+if($a<0) {
+ $name='Verno';
+} else {
+$name= 'Neverno';
+}
+$label=$app->add(['Label',$name]);
+
+$a=3;
+if($a>0) {
+ $name='Verno';
+} else {
+$name= 'Neverno';
+}
+$label=$app->add(['Label',$name]);
+
+$a=3;
+if($a==0) {
+ $name='Verno';
+} else {
+$name= 'Neverno';
+}
+$label=$app->add(['Label',$name]);
