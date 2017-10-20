@@ -53,10 +53,12 @@ $label=$app->add(['Label',$name]);
 $a=3;
 if($a>0) {
  $name='Verno';
+ $color = 'green';
 } else {
 $name= 'Neverno';
+$color='red';
 }
-$label=$app->add(['Label',$name]);
+$label=$app->add(['Label',$name,$color]);
 
 $a=3;
 if($a==0) {
