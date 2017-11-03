@@ -2,7 +2,7 @@
 require 'vendor/autoload.php';
 $app =new \atk4\ui\App('Shops');
 $app->initLayout('Centered');
-
+/*
 $button=$app->add("Button");
 $button->set("Сlick");
 $button->link("15.php");
@@ -37,3 +37,6 @@ $button->icon = "signal";
 $button->set('Gucci');
 $button->addClass("orange");
 $button->link('https://www.gucci.com');
+*/
+$button=$app->layout->add(["Button"]);
+$button->link(['text','name'=>'Nik']);
