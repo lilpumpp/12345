@@ -40,6 +40,4 @@ $button->link('https://www.gucci.com');
 */
 $button=$app->layout->add(["Button"]);
 $button->link(['test','name'=>'Nikita']);
-
-$button=$app->layout->add(["Button"]);
 $button->link(['test','surname'=>'koljan']);
