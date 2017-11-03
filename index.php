@@ -39,4 +39,4 @@ $button->addClass("orange");
 $button->link('https://www.gucci.com');
 */
 $button=$app->layout->add(["Button"]);
-$button->link(['text','name'=>'Nik']);
+$button->link(['test','name'=>'Nikita']);
