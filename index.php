@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-$app =new \atk4\ui\App('Shops');
+$app =new \atk4\ui\App('Random game');
 $app->initLayout('Centered');
 /*
 $button=$app->add("Button");
@@ -38,7 +38,8 @@ $button->set('Gucci');
 $button->addClass("orange");
 $button->link('https://www.gucci.com');
 */
-$button=$app->layout->add(["Button"]);
-$button->link(['test','name'=>'Nikita','surname'=>'OK']);
-$button=$app->layout->add(['Button'])
-$button->link(['test','name'=>'1']);
+$text= $app->add(['Text','Start']);
+$button=$app->add('Button');
+$button->set('Try');
+$button->icon='find';
+$button->link(['test','min'=>1,'max'=>100]);
