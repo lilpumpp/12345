@@ -1,5 +1,6 @@
 <?php
 require 'vendor/autoload.php';
+require 'Cat.php';
 $app =new \atk4\ui\App('Random game');
 $app->initLayout('Centered');
 /*
@@ -38,8 +39,29 @@ $button->set('Gucci');
 $button->addClass("orange");
 $button->link('https://www.gucci.com');
 */
+/*
 $text= $app->add(['Text','Start']);
 $button=$app->add('Button');
 $button->set('Try');
 $button->icon='find';
 $button->link(['test','min'=>1,'max'=>100]);
+*/
+$cat= new Cat;
+$cat1 -> name= 'boom';
+$cat1->sex='male';
+$cat1->age='19';
+
+$cat2-> new Cat;
+$cat2->sex= 'female';
+$cat2->age= '34';
+$cat2->name= 'game';
+
+$cat3->name='man';
+$cat3-> new Cat;
+$cat3->sex= 'male';
+$cat3->age= '0.5';
+
+$cat4->name='wowo';
+$cat4-> new Cat;
+$cat4->sex= 'male';
+$cat4->age= '45';
