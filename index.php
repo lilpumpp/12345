@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-require 'Candy.php';
+require 'laima.php';
 $app =new \atk4\ui\App('Random game');
 $app->initLayout('Centered');
 /*
