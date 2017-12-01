@@ -45,7 +45,7 @@ $button=$app->add('Button');
 $button->set('Try');
 $button->icon='find';
 $button->link(['test','min'=>1,'max'=>100]);
-*/
+
 $cat= new Cat;
 $cat1 -> name= 'boom';
 $cat1->sex='male';
@@ -65,3 +65,24 @@ $cat4->name='wowo';
 $cat4-> new Cat;
 $cat4->sex= 'male';
 $cat4->age= '45';
+*/
+$candy= new Candy;
+$candy ->name= 'serenade';
+$candy->color='blue';
+$candy->price='8';
+$label=$app->add ('Label',$candy->name,$candy->color,'detail'=>$candy->price);
+$candy2-> new Candy;
+$candy2->color= 'teal';
+$candy2->price= '5';
+$candy2->name= 'lacishi';
+$label=$app->add ('Label',$candy2->name,$candy2->color,'detail'=>$candy2->price);
+$candy3-> new Candy;
+$candy3->name='lukss';
+$candy3->price= '9';
+$candy3->color= 'green';
+$label=$app->add ('Label',$candy3->name,$candy3->color,'detail'=>$candy3->price);
+$candy4-> new Candy;
+$candy4->name='vaverite';
+$candy4->color='red';
+$candy4->price = '7';
+$label=$app->add ('Label',$candy4->name,$candy4->color,'detail'=>$candy4->price);
